@@ -1,0 +1,8 @@
+# Ignore C compilation output files
+*.out
+*.o
+*.obj
+*.exe
+*.json
+*.s
+*.plist
