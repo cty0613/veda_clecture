@@ -1,7 +1,4 @@
 #include <stdio.h>
-#include "ex.h"
-#include "ex.c"
-
 // macro functions
 #define d(n,v) printf("\t %d. 0d %08d\n", (n), (v)); // decimal
 #define x(n,v) printf("\t %d. 0x %08X\n", (n), (v)); // hex
@@ -13,7 +10,6 @@ int gni;
 
 int main() {
 
-	#include "in.c"
 
 	int li = 11;
 	int lni;

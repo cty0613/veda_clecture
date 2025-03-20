@@ -1,7 +1,3 @@
-//
-// Created by 2-17 on 25. 3. 17.
-//
-
 #include <stdio.h>
 
 // macro functions
@@ -12,12 +8,11 @@
 
 int main() {
     int a[] = {10, 1, 2, 3, 4, 5};
-    int *p;
+    int **pp = &a; // a의 주소 반환
 
-    p = &a[1]; // 1의 주소 반환
+    **pp = 11;
 
-    printf("%d\n", *p++); // *연산, ++연산 중 오른쪽이 우선 -> p++ 후 *p
-                                // p반환!! 이 반환된것을 *연산
+    printf("%d\n", a[0]);
 
     return 0;
 }
