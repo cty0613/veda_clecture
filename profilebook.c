@@ -12,7 +12,6 @@ struct profile
 
 
 int main(){
-
     struct profile cty;
 
     strcpy(cty.name, "Choi Tae Young");
